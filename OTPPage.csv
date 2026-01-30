@@ -1,0 +1,135 @@
+        Serial No,Test Case Title,Test Case Description,Expected Result,Actual Result,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,
+1,To Verify UI of OTP Screen.,"Pre- Requisite: Enter Mobile number and navigate to OTP Page.
+OTP bottomsheet should be displayed.
+""OTP Verification"" title needs to be displayed.
+Verify design according to figma.",Design should be according to figma.,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,
+2,"To Verify ""Continue"" button is disabled.","Pre- Requisite: Enter Mobile number and navigate to OTP Page.
+1. Verify ""Continue"" button should be disabled.",Continue button should be disabled.,,,,,,,,,,,,,,,,,,,,,,
+,,"2. Enter any 2 digits.
+Verify ""Continue"" button is disabled.","""Continue"" button should be disabled.",,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,
+3,"To Verify ""Continue"" button is enabled by entering correct
+OTP.","Pre- Requisite: Enter Mobile number and navigate to OTP Page.
+1. Enter the correct OTP in OTP blocks.
+Verify Continue button and click on it.","""Continue"" button is enabled.
+Once user clicks on it, ""Create an Account Page willl be displayed"".",,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,
+4,To verify OTP Page by entering incorrect OTP.,"Pre- Requisite: Enter Mobile number and navigate to OTP Page.
+1. Enter incorrect OTP and click on ""continue"" button.","Invalid OTP number error message should be displayed below
+OTP boxes.",,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,
+5,"To Verify proper mobile number is fetched from mobile 
+number field to OTP Page field.","Pre- Requisite: Enter Mobile number and navigate to OTP Page.
+Verify on OTP page at the top, correct number is fetched.","On OTP Page, on top line correct mobile number should be displayed.",,,,,,,,,,,,,,,,,,,,,,
+,,Close OTP Verification screen.,Focus should be shifted to Mobile number screen.,,,,,,,,,,,,,,,,,,,,,,
+,,"Enter  another number in mobile number field and click on ""Continue"" button.",OTP Verification bottomsheet is displayed.,,,,,,,,,,,,,,,,,,,,,,
+,,Verify the mobile number in OTP bottomsheet.,It should fetch new number.,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,
+6,"To Verify timer in ""Resend code"" is displayed correctly.","Pre- Requisite: Enter Mobile number and navigate to OTP Page.
+Verify timer on OTP Page.", 30 secs timer needs to be displayed.,,,,,,,,,,,,,,,,,,,,,,
+,,Observe timer counting should drop.,Timer counting should reduce.,,,,,,,,,,,,,,,,,,,,,,
+,,"Verify after entering OTP, timer is not started again.",After entering incorrect OTP timer should not reset.,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,
+7,To Verify Resend OTP.,"Pre- Requisite: Enter Mobile number and navigate to OTP Page.
+Let the timer be expired.",,,,,,,,,,,,,,,,,,,,,,,
+,,Verify Resend OTP link.,Resend OTP Link will be displayed.,,,,,,,,,,,,,,,,,,,,,,
+,,Click on Resend OTP and verify the functionality.,A new OTP should be generated.,,,,,,,,,,,,,,,,,,,,,,
+,,Enter incorrect OTP.,"""Incorrect OTP"" message should be displayed.",,,,,,,,,,,,,,,,,,,,,,
+,,Now enter Correct OTP.,"OTP should be validated.
+Focus should be either on ""Create An Account"" page if unregistered 
+user.
+It should be on Home page if user is registered.",,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,
+8,To verify Try Different Method once OTP is not received.,"Pre- Requisite: Enter Mobile number and navigate to OTP Page.
+1. Do not enter OTP and let the timer expire.","Resend OTP 
+Try a different method options will be displayed.",,,,,,,,,,,,,,,,,,,,,,
+,,"Click on ""Try a different method"" link.","Bottomsheet will open with two options.
+1. Verify using OTP on SMS.
+2. Verify using OTP on WhatsApp.",,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,
+9,"To verify ""Verify using OTP on SMS"" option.","Pre- Requisite: Enter Mobile number and navigate to OTP Page and let the timer expire.
+1. Click on ""Try a different method"".
+2. Choose ""Verify using OTP on SMS""","Focus will be on ""OTP verification"" page.
+A new OTP will be generated.",,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,
+10,"To verify ""Verify using OTP on WhatsApp"" option.","Pre- Requisite: Enter Mobile number and navigate to OTP Page and let the timer expire.
+1. Click on ""Try a different method"".
+2. Choose ""Verify using OTP on WhatsApp""","Focus will be on ""OTP verification"" page.
+A new OTP will be generated.",,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,
+11,"To verify UI is displayed properly when switched from
+Landscape mode to potrait and vice versa.","Pre- Requisite: Enter Mobile number and navigate to OTP Page.
+Change orientation from potrait to landscape mode.","Orientation should be Landscape mode.
+UI should not be distorted.",,,,,,,,,,,,,,,,,,,,,,
+,,Change orientation to Potrait mode again.,"Orientation should be changed to Potrait mode.
+UI should not be distorted.",,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,
+12,"To Verify user should be able to remove OTP by pressing
+Back button.","Pre- Requisite: Enter Mobile number and navigate to OTP Page.
+1. Enter thr OTP in OTP blocks.",Digits should be entered in the blocks.,,,,,,,,,,,,,,,,,,,,,,
+,,2. Press back button to remove the last digit.,Last digit should be removed.,,,,,,,,,,,,,,,,,,,,,,
+,,3. Enter a new digit in the last block.,Focus will be on last digit.,,,,,,,,,,,,,,,,,,,,,,
+,,4. Now move focus to third block and remove the digit by pressing back  button.,"Digit should be removed and foocus should be on third block.
+User should be able to erase and add digits easily.",,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,
+13,"To Verify proper message is displayed when there is no 
+Internet connectivity.","Pre- Requisite: Enter Mobile number and navigate to OTP Page.
+1. Disable WiFi Connection/Mobile Network.",Proper message needs to be displayed.,,,,,,,,,,,,,,,,,,,,,,
+,,2. Once connection is restored. Verify the focus.,"Focus will be on ""Mobile Registration"" page.",,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,
+14,"To Verify Timer on OTP Page should not displayed -ve 
+Value.","Pre- Requisite: Enter Mobile number and navigate to OTP Page.
+1. Let the timer on OTP expire.
+2. Verify in timer no -ve value is displayed.","On timer, once 30 secs is expired. No -ve timer value should be displayed.",,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,
+15,To verify last block OTP does not allow multiple digits.,"Pre- Requisite: Enter Mobile number and navigate to OTP Page.
+1. Enter multiple digits on last OTP block.",Multiple digits should not be allowed on last OTP block.,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,
+16,"To verify alphabets/ special character should not be 
+allowed on OTP blocks.","Pre- Requisite: Enter Mobile number and navigate to OTP Page.
+1. In OTP blocks, enter alphabets or special characters.",Alphabets or special characters should not be allowed.,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,
+17,To Verify Paste functionality should work for OTP Page,"Pre- Requisite: Enter Mobile number and navigate to OTP Page.
+1. In OTP block try pasting the OTP from SMS/ WhatsApp",User should be allowed to paste OTP on OTP blocks.,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,
+18,Verify expired OTP should not be accepted.,"Pre- Requisite: Enter Mobile number and navigate to OTP Page.
+1. Let OTP be expired.
+2. Now try to enter expired OTP.",Expired OTP should not be accepted and proper error message needs to be displayed.,,,,,,,,,,,,,,,,,,,,,,
