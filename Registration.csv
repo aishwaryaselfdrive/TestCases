@@ -1,0 +1,116 @@
+Test Case ID,Test Case Title,Test Case Description,Expected Result,Actual Result,Environment,Remarks,,,,,,,,
+,,,,,,,,,,,,,,
+1,Verify app opens successfully,1) click on the OTO app,App launches without crash,,,,,,,,,,,
+,,,,,,,,,,,,,,
+2,Verify splash video plays on app launch,"1) click on the OTO app
+2) splash video shown",Splash video plays fully and navigates to login page,,,,,,,,,,,
+,,,,,,,,,,,,,,
+3,Verify behavior if splash video fails to load,"1) click on the OTO app
+2) splash video shown",App skips splash and navigates to login screen,,,,,,,,,,,
+,,,,,,,,,,,,,,
+4,Verify default country code is displayed,"1) click on the OTO app
+2) splash video shown
+3) login/registration screen shown",Default country code and corresponding flag are shown,,,,,,,,,,,
+,,,,,,,,,,,,,,
+5,Verify user can change country code,"1) click on the OTO app
+2) splash video shown
+3) login/registration screen shown
+4) edit the country code",country code should be editable,,,,,,,,,,,
+,,,,,,,,,,,,,,
+6,Verify flag updates when country code is changed,"1) click on the OTO app
+2) splash video shown
+3) login/registration screen shown
+4) enter the country code",Flag changes according to selected country,,,,,,,,,,,
+,,,,,,,,,,,,,,
+7,Verify invalid country code selection,"1) click on the OTO app
+2) splash video shown
+3) login/registration screen shown
+4) try to enter the code more than 3",App does not accept invalid country code,,,,,,,,,,,
+,,,,,,,,,,,,,,
+8,Verify “+” sign is displayed by default in country code field,"1) click on the OTO app
+2) splash video shown
+3) login/registration screen shown",“+” sign is visible before the country code,,,,,,,,,,,
+,,,,,,,,,,,,,,
+9,Verify “+” sign is not editable by user,"1) click on the OTO app
+2) splash video shown
+3) login/registration screen shown
+4) try to change edit or remove the + sign",“+” sign cannot be deleted or edited,,,,,,,,,,,
+,,,,,,,,,,,,,,
+10,Verify user cannot enter multiple “+” signs,"1) click on the OTO app
+2) splash video shown
+3) login/registration screen shown
+4) try to add + sign",Input should be restricted to “++” sign,,,,,,,,,,,
+,,,,,,,,,,,,,,
+11,Verify “+” sign and country code are clearly separated,"1) click on the OTO app
+2) splash video shown
+3) login/registration screen shown","“+” sign is displayed before the country code
+Country code digits are fully visible and not overlapped",,,,,,,,,,,
+,,,,,,,,,,,,,,
+12,Verify “+” sign and country code alignment on different screen sizes,"1) click on the OTO app
+2) splash video shown
+3) login/registration screen shown","No overlap on small, medium, or large screen devices",,,,,,,,,,,
+,,,,,,,,,,,,,,
+13,Verify user can enter valid mobile number,"1) click on the OTO app
+2) splash video shown
+3) login/registration screen shown
+4) enter the mobile number",Mobile number should be accepted,,,,,,,,,,,
+,,,,,,,,,,,,,,
+14,Verify minimum length of mobile number,"1) click on the OTO app
+2) splash video shown
+3) login/registration screen shown
+4) enter the mobile number till 7 digits","Mobile number with minimum valid digits is accepted
+Min length - 7",,,,,,,,,,,
+,,,,,,,,,,,,,,
+14,Verify maximum length of mobile number,"1) click on the OTO app
+2) splash video shown
+3) login/registration screen shown
+4) enter the mobile number till 15 digits","Mobile number with maximum valid digits is accepted
+max length -15",,,,,,,,,,,
+,,,,,,,,,,,,,,
+15,Verify mobile number less than minimum length,"1) click on the OTO app
+2) splash video shown
+3) login/registration screen shown
+4) enter the mobile number till 5-6 digits",Mobile number should be accepted,,,,,,,,,,,
+,,,,,,,,,,,,,,
+16,Verify mobile number more than maximum length,"1) click on the OTO app
+2) splash video shown
+3) login/registration screen shown
+4) enter the mobile number till 16 digits",Mobile number should be accepted,,,,,,,,,,,
+,,,,,,,,,,,,,,
+17,Verify mobile number with alphabets or special characters,"1) click on the OTO app
+2) splash video shown
+3) login/registration screen shown
+4) enter the mobile number with special character",Input should not be accepted only numeric keyboard should be shown,,,,,,,,,,,
+,,,,,,,,,,,,,,
+18,Verify Continue button is disabled on login screen load,,Continue button is disabled by default,,,,,,,,,,,
+,,,,,,,,,,,,,,
+19,Verify Continue button remains disabled when mobile number field is empty,,Continue button remains disabled,,,,,,,,,,,
+,,,,,,,,,,,,,,
+20,Verify Continue button remains disabled when mobile number length is less than minimum/MAX,"Pre-Requisite: Mobile number with fewer than
+required digits or MAX",Continue button remains disabled,,,,,,,,,,,
+,,,,,,,,,,,,,,
+21,Verify Continue button remains disabled when mobile number contains special characters,,Continue button remains disabled,,,,,,,,,,,
+,,,,,,,,,,,,,,
+22,Verify Continue button is enabled when valid mobile number is entered,"1) click on the OTO app
+2) splash video shown
+3) login/registration screen shown
+4) enter the mobile number as per selected country code",Continue button becomes enabled,,,,,,,,,,,
+,,,,,,,,,,,,,,
+23,Verify Continue button is disabled again if valid mobile number is cleared,,Continue button remains disabled,,,,,,,,,,,
+,,,,,,,,,,,,,,
+24,Verify login screen UI matches Figma design,,"All UI elements (logo, text, fields, buttons) match Figma
+No missing or extra components",,,,,,,,,,,
+,,,,,,,,,,,,,,
+25,Verify app logo position and size,,"Logo alignment, size, and padding match Figma",,,,,,,,,,,
+,,,,,,,,,,,,,,
+26,Verify error messages design matches Figma,,"Error text color, size, and position match Figma",,,,,,,,,,,
+,,,,,,,,,,,,,,
+27,Verify behavior when there is no internet connection on app launch,Device internet is OFF,User should be given an option to retry,,,,,,,,,,,
+,,,,,,,,,,,,,,
+28,Verify app behavior if internet is restored while splash video is playing,,"Splash video resumes or completes
+App navigates correctly to login screen",,,,,,,,,,,
+,,,,,,,,,,,,,,
+29,Verify app does not crash during splash error scenarios,,"App remains stable
+No blank or frozen screen",,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
